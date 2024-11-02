@@ -290,7 +290,7 @@ async def fetch_advanced_analytics(wallet_address: str):
     
     # Make the request to the QuickNode JSON-RPC API
     try:
-        response = requests.post("https://dimensional-special-wind.quiknode.pro/ed11912a414200cb1a9bc7b68bed8b69f989f007/", json=payload)
+        response = requests.post("https://dimensional-special-wind.quiknode.pro/ed11912a4142******************/", json=payload)
         parsed = parse(response.json())
         
         # Check if the response is successful
@@ -615,7 +615,7 @@ async def transaction_analysis(transaction_hash: str):
     
     # Make the request to the QuickNode JSON-RPC API
     try:
-        response = requests.post("https://dimensional-special-wind.quiknode.pro/ed11912a414200cb1a9bc7b68bed8b69f989f007/", json=payload)
+        response = requests.post("https://dimensional-special-wind.quiknode.pro/ed11912*******************************/", json=payload)
         parsed = parse(response.json())
         
         # Check if the response is successful
