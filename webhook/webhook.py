@@ -25,10 +25,10 @@ def save_response_to_file(response_data):
 
 
 # Get API key and base URL from environment variables
-QUICKNODE_API_KEY='QN_2ac871f06d83430eb609e72d04d2dd17'
+QUICKNODE_API_KEY='***********f06d83430eb6*************'
 QUICKNODE_BASE_URL='https://quicknode.anchainai.com/api/'
 # Load Covalent API key from .env
-COVALENT_API_KEY = 'cqt_rQCTGBHT8D6XpxmRbbkkPjMg3dWd'
+COVALENT_API_KEY = '************GBHT8D6Xp*************'
 COVALENT_API_URL = "https://api.covalenthq.com/v1"
 ETH_CHAIN_ID = 1  # Ethereum chain ID
 app = FastAPI()
@@ -91,7 +91,7 @@ def get_time_range():
 @app.get("/wallet/{wallet_address}/balance_history/")
 async def call_quicknode_balance_history(wallet_address: str):
     # URL for QuickNode API
-    url = "https://dimensional-special-wind.quiknode.pro/ed11912a414200cb1a9bc7b68bed8b69f989f007/"
+    url = "https://dimensional-special-wind.quiknode.pro/ed11912a414200cb1a9bc7***********/"
     
     # Hardcoded parameters for payload
     payload = json.dumps({
